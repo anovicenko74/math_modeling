@@ -1,0 +1,9 @@
+print(type('Hello world'))
+
+print(type(3 + 4))
+
+print(type(3 / 4))
+
+print(type('Hello world'))
+
+print(type([1, 2, 5, 10, 100]))
