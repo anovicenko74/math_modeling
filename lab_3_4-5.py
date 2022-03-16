@@ -15,11 +15,11 @@ for i in range(vector_1_len):
     if a[i][j] < 0:
       a[i][j] = 0;
 
-print('Начальный -', a, '\n')
+print('Начальный: ', '\n', a, '\n')
 
 t = np.zeros( (vector_1_len, vector_2_len) )
 # меняем всего два столбца
 t[0][::1] = a[1][::1]
 t[1][::1] = a[0][::1]
 
-print('Перевернутый -', t)
+print('Перевернутый:', '\n',  t)
